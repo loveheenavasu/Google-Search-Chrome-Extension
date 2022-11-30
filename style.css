@@ -1,0 +1,156 @@
+* {
+	box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+body {
+    background-color: #000000;
+	background-image: url(sky-6811874_1920.jpg) ;
+    opacity: 1;
+
+  background-position: center;
+	background-size: cover;
+	color: #ffffff;
+	text-align: center;
+    height: 100vh;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+
+
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: white;
+	font-size: 18px;
+}
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	
+}
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	
+	}
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+}
+ .wrapper {
+   width: 492px;
+   text-align: center;
+     height: 50px;
+  
+ }
+
+.search-container{
+   width: 100vw;
+   height: 90vh;
+   display: flex !important;
+   justify-content: center;
+   align-items: center;
+
+
+ }
+ .input[type=text] {
+     margin-bottom: 33px;
+ }
+ 
+ input#search-bar{
+   width: 345px;
+   height: 45px;
+   padding: 0 20px;
+   font-size: 1rem;
+   border: 1px solid #D0CFCE;
+   outline: none;
+    }
+
+    #search-bar{
+        border-radius: 44px;
+    }
+    
+    .button {
+        height: 46px;
+        margin: 2px 6px;
+
+        padding: 11px 32px;
+        text-align: center;
+        color: white;
+        border-radius: 44px;
+        border: 2px;
+       font-size: 15px;
+        background-color: black;
+        cursor: pointer;
+        margin-bottom: 33px;
+       }
+       
+    .button:active{
+        background-color:white;
+        color: black    ;
+        }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+
+        color: black;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+
+        color: white;
+        font-size: 18px;
+       
+	
+     }
+  .footer-div{
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+      margin:25px 14px
+  }
+  .footer_center{
+    width: 200px;
+    margin:25px 0px;
+    align-items: center;
+
+
+  }
+        
+
+  
